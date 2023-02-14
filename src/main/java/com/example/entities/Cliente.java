@@ -20,7 +20,7 @@ public class Cliente {
     private String nombreCompleto;
     @ManyToOne
     // @JoinColumn(name = "address_id")
-    private Address address;
+    private String address;
     private String email;
     private String nif;
     private Integer telefono;
